@@ -1,0 +1,32 @@
+{
+  "name": "docker-101",
+  "version": "1.0.0",
+  "description": "Sample project to know the basics of a docker and it's usage in real time.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "NA",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishnaPayyavula/docker-101.git"
+  },
+  "keywords": [
+    "docker",
+    "images",
+    "containers",
+    "node",
+    "mongodb"
+  ],
+  "author": "krishna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrishnaPayyavula/docker-101/issues"
+  },
+  "homepage": "https://github.com/KrishnaPayyavula/docker-101#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
